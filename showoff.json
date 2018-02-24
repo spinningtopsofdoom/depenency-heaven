@@ -1,0 +1,6 @@
+{ "name": "Dependency Heaven - Using Clojure's new tool to manage dependencies",
+  "highlight": "github",
+  "sections": [
+      {"section":"meetup/intro"},
+      {"section":"meetup/outro"}
+  ]}
