@@ -1,9 +1,15 @@
-Diagnosing CLojure CLI
-`-S` flags
+
+# Debugging Clojure CLI
 
 !SLIDE
 
-`clj -Sverbose`  gives confuration information to the console
+# `-S` flags
+## Wealth of debugging information
+
+!SLIDE
+
+# What configurations is `clj` using?
+##`clj -Sverbose`  gives configuration information
 
 ```
 version      = 1.9.0.326
@@ -16,7 +22,8 @@ cp_file      = /home/peter/.clojure/.cpcache/1199981639.cp
 
 !SLIDE
 
-`clj -Stree` prints out a dependency tree
+# What are the dependencies of my project?
+## `clj -Stree` prints out a dependency tree
 
 ```
 org.clojure/clojure 1.9.0
@@ -26,20 +33,20 @@ org.clojure/clojure 1.9.0
 
 !SLIDE
 
-`clj -Spath` lists off the entire class path
+# What class paths are being loaded?
+## `clj -Spath` lists off the entire class path
 
 ```
 src:/home/peter/.m2/repository/org/clojure/clojure/1.9.0/clojure-1.9.0.jar:/home/peter/.m2/repository/org/clojure/spec.alpha/0.1.143/spec.alpha-0.1.143.jar:/home/peter/.m2/repository/org/clojure/core.specs.alpha/0.1.24/core.specs.alpha-0.1.24.jar
 ```
 
 !SLIDE
-
-`clj -Sresolve-tags`
-
-Resolves the sha coordinate of a git tag and updates the `deps.edn` with the sha coordinate
+# I want to get the sha of a tag in a repository
+## `clj -Sresolve-tags`
+### Resolves the sha coordinate of a git tag and updates the `deps.edn` with the sha coordinate
 
 !SLIDE
 
-`clj -Spom`
-
-Transforms dependency and path information into a `pom.xml`
+# I have a java project that needs a POM
+## `clj -Spom`
+### Transforms dependency and path information into a `pom.xml`
