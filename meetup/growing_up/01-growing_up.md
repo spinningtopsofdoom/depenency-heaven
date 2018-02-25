@@ -1,31 +1,32 @@
-Clojure has a number of "affordances better word" to make this possible
+# Clojure has many affordances to mitigate these points of failure
 
 !SLIDE
 
-Collision avoidance
+# Namespaces and Immutability
 
-Namespaces
-
-There's an infinite number of names that can be used without colliding with each other.
+## Libraries do not overwrite each other functionality or data
 
 !SLIDE
 
-Immutability everywhere
+# Protocols and EDN
+
+## Defined extension points that are not tied to the library
 
 !SLIDE
 
-Extension Points
+# Data first
 
-Protocols, EDN
-
-!SLIDE
-
-Common Means of communication
-
-Generic Data and information schema first
+## Glue code is concerned with data transformations no mini language translation
+### Only need standard library for glue
 
 !SLIDE
 
-Addition based mindset
+# Addition based growth
 
-Spec, only ever adding functionality never replacing or modifying it
+## Moving to a new version of the library means all old functionality still works
+### Grows in power the bigger then dependency tree
+
+!SLIDE
+
+# Allows for confident experimentation
+## Enough talk, how does it work?
