@@ -3,7 +3,7 @@
 <br />
 <br />
 # Dependency Heaven
-## Using Clojure's depenecy management CLI tool
+## Using Clojure's dependency management CLI tool
 <br />
 <br />
 <br />
@@ -16,30 +16,39 @@
 
 !SLIDE
 
-Clojure CLI tool is lesson in "Economics Law?". The cheaper / more efficient a resource is used for a use the more total usage of that resource.
+# Jevons Paradox
+## The more efficiently a resource is used the overall usage of that resource will increase
 
 !SLIDE
 
-`clojure` and `clj` lower the barrier to starting up a new project experimenting with new tools => increasing clojure use and clojure ecosystem use
+# Easier sign up leads to more users for a site
 
 !SLIDE
 
-Test this right now
-
-Start a new project using the latest version of ClojureScript
-
-!SLIDE
-
-Jeopardy Theme music
+# Clojure CLI dependency tool
+## Lowers project startup and experimentation cost
 
 !SLIDE
 
-Next kata
-
-Add local project utitlies to current or new project
-
-(e.g. add `peter.utilities` namespace to project)
+# Bold claim
+## Let's test this right now
 
 !SLIDE
 
-Why is this so annoyingly tedious?
+# Test
+## Add latest version of ClojureScript to new or existing project
+
+!SLIDE
+
+# Jeopardy Theme music
+
+!SLIDE
+
+# Bonus round
+## Add a local project to an existing project
+<br />
+### For example add `my.utilities` namespace to project
+
+!SLIDE
+
+# Why are these tasks so annoyingly tedious?
