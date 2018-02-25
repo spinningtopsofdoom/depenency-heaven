@@ -3,5 +3,6 @@
   "sections": [
       {"section":"meetup/intro"},
       {"section":"meetup/busywork"},
+      {"section":"meetup/growing_up"},
       {"section":"meetup/outro"}
   ]}
