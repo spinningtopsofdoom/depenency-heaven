@@ -1,62 +1,54 @@
 
-How does new functionality reach Clojure developers right now
-
-* Make changes to code base
-* Commit changes
-* Increment version
-* Build artifact (e.g. jar)
-* Deploy artifact to master computer (e.g. maven, clojars)
-* Add updated dependency to project
+#Look at steps after changes
+## After `git commit` and `git push`
 
 !SLIDE
 
-These steps require a build tool and immutable archive to deploy to
-
-* Increment version
-* Build artifact (e.g. jar)
-* Deploy artifact to master computer (e.g. maven, clojars)
+# Increment Version Number
 
 !SLIDE
 
-Manual step for library / tool maintainer
+# Build artifact (e.g. jar)
 
 !SLIDE
 
-So to access new functionality of a library
-
-* Create new functionality
-* Test new functionality
-* Commit new functionality
-* Build Tool
-* Immutable archive
-* Manually make new version name
-* Manual deployment step to immutable archive
+# Deploy artifact (e.g. maven, clojars)
 
 !SLIDE
 
-Create Value
-
-* Create new functionality
-* Test new functionality
-* Commit new functionality
+# Announce new version(optional)
 
 !SLIDE
 
-Overhead and busywork
+# Spreading new features requires
 
-* Build Tool
-* Immutable archive
-* Manually make new version name
-* Manual deployment step to immutable archive
-
-!SLIDE
-
-Why do we have anything besides the first three items?
-
-Major functionality of version release stable memorable dependency. You can search for "How do I flap with Bird 1.4 (Bob Buzzard)".
+* Build Tool :(
+* Always up Immutable Repository :( :(
+* **Manual Deployment** x_x
 
 !SLIDE
 
-Just treat libraries as extra source we're putting into our project
+# What are the benefits of these manual steps?
 
-For example adding `spectre` to  project `foo.bar` should be exactly the same as taking the source files of `spectre` and dropping them into our source directory
+## Stable memorable dependency, "How do I flap with Bird 1.4 (Bob Buzzard)?".
+
+!SLIDE
+
+# Thought Experiment
+<br />
+## Artifact => Source Cdoe
+<br />
+## Version Number => Commit Hash
+
+!SLIDE
+
+# Treat Libraries as source code
+## Many potential Points of Failure
+
+!SLIDE
+
+* Adding library breaks current functionality
+* Updating breaks working functionality
+* Library load order matters
+* Library needs tools to work
+* Excessive amounts of Glue Code
