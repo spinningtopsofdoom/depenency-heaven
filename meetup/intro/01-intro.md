@@ -16,8 +16,13 @@
 
 !SLIDE
 
-# Jevons Paradox
-## The more efficiently a resource is used the overall usage of that resource will increase
+# Lesson in Economics
+## Jevons Paradox
+
+!SLIDE
+
+# More efficient production increases total usage
+## Easier time starting a new project means more Clojure Users
 
 !SLIDE
 
@@ -26,7 +31,7 @@
 !SLIDE
 
 # Clojure CLI dependency tool
-## Lowers project startup and experimentation cost
+## Will make Clojure libraries and tools sharper
 
 !SLIDE
 
