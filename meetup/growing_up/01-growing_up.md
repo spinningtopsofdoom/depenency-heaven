@@ -3,30 +3,33 @@
 !SLIDE
 
 # Namespaces and Immutability
-
-## Libraries do not overwrite each other functionality or data
+<br />
+## Everyone can have their own development space
+<br />
+## Using a library does not modify it
 
 !SLIDE
 
 # Protocols and EDN
-
-## Defined extension points that are not tied to the library
-
-!SLIDE
-
-# Data first
-
-## Glue code is concerned with data transformations no mini language translation
-### Only need standard library for glue
+<br />
+## Defined extension points to hook into
+<br />
+## Extensions can be read without library
 
 !SLIDE
 
 # Addition based growth
-
-## Moving to a new version of the library means all old functionality still works
-### Grows in power the bigger then dependency tree
+<br />
+## Old functionality is never erased
+<br />
+### Grows in power the bigger the dependency tree
 
 !SLIDE
 
-# Allows for confident experimentation
-## Enough talk, how does it work?
+# Clojure only needs source code
+## Allows consumption and experimentation as quickly as changes are made
+
+!SLIDE
+
+# Clojure CLI dependency tool
+## It's super awesome, how do we use it?
