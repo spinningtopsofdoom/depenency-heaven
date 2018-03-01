@@ -1,22 +1,26 @@
 
-#Look at steps after changes
-## After `git commit` and `git push`
+# How do we publicize changes?
+## Changes mean after `git commit` and `git push`
 
 !SLIDE
 
 # Increment Version Number
+## Go from `1.1.0` to `1.2.0`
 
 !SLIDE
 
-# Build artifact (e.g. jar)
+# Build artifact
+## Compile `bird.utopia` to `bird-utopia-1.4.0.jar`
 
 !SLIDE
 
-# Deploy artifact (e.g. maven, clojars)
+# Deploy artifact
+## Deploy to Maven with GPG credentials
 
 !SLIDE
 
-# Announce new version(optional)
+# Announce new version
+## Post on mailing list, slack announcement, `CHANGES.md`
 
 !SLIDE
 
@@ -35,20 +39,24 @@
 !SLIDE
 
 # Thought Experiment
+## Use source code as artifact
 <br />
-## Artifact => Source Cdoe
+## Instead of JAR we use Source Cdoe
 <br />
-## Version Number => Commit Hash
+## Instead of Version Number we use a Commit Hash
 
 !SLIDE
 
 # Treat Libraries as source code
-## Many potential Points of Failure
+## Adding a library is as easy as pointing to a Github project
 
 !SLIDE
 
+# Many potential Points of Failure
 * Adding library breaks current functionality
-* Updating breaks working functionality
+    * Monkey Patching, Namespace conflicts
+* Updating library breaks previous functionality
+    * Old functionality removed, changed
 * Library load order matters
+    * Global mutable state
 * Library needs tools to work
-* Excessive amounts of Glue Code
