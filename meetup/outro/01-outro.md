@@ -1,9 +1,11 @@
 
-## Clojure CLI shortens and simplifies the process of getting new dependencies and starting up Clojure project
+# Clojure CLI
+## Helps bring new Clojure Users
+## Shorter feedback cycle helps seasoned users
 
 !SLIDE
 
-# Grab the Clojure CLI and expirement today!
+# Grab the Clojure CLI and experiment today!
 
 !SLIDE
 
